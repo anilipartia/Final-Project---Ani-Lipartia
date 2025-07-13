@@ -1,0 +1,28 @@
+body{
+    background-color: #F8F9FA;
+    max-width: 1440px;
+    width: 100%;
+}
+header{
+    padding: 43px;
+    height: 110px;
+    background-color: #1F3A93;
+    z-index: 1;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+a:hover{
+    transform: scale(1.1);
+}
+.active{
+    color: #A8D0E6;
+}

@@ -36,6 +36,117 @@ a:hover{
     color: #A8B9E7;
 }
 
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+h1{
+    font-size: 48px;
+    color: #1F3A93;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+h2{
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F3A93;
+}
+h3{
+    color: #1F3A93;
+    font-size: 18px;
+}
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.description{
+    max-width: 1000px;
+    text-align: end;
+}
+.description p {
+    font-size: 24px;
+    color: #1F3A93;
+}
+.cards{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 20px;
+    margin-bottom: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+    border: 1px solid #dcdfe6;
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.top{
+    background-color: #A8B9E7;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 400px;
+    height: 100px;
+}
+.top h2{
+    text-align: center;
+    color: white;
+}
+.bottom{
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h4{
+    color: #1F3A93;
+    font-size: 20px;
+    font-weight: 400;
+}
+.images img{
+    width: 100px;
+    height: 100px;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.button{
+    width: 70%;
+    margin-top: 20px;
+    padding: 15px;
+    color: white;
+    background-color: #F76C6C;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+}
+
 
 footer{
     background-color: #A8B9E7;

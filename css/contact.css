@@ -36,8 +36,120 @@ a:hover{
     color: #A8B9E7;
 }
 
+.card{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border: 1px solid #dcdfe6;
+    margin-bottom: 50px;
+}
+
+.line{
+  width: 2px;
+  background-color: #1F3A93;
+  height: auto;
+  min-height: 300px;
+  margin: 0 40px;
+  margin-left: 50px;
+  border-radius: 2px;
+}
+
+h1{
+    font-size: 48px;
+    color: #1F3A93;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+h2{
+    font-size: 30px;
+    color: #1F3A93;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.forms{
+    width: 100%;
+    max-width: 480px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input{
+    height: 60px;
+    width: 100%;
+    background-color: #dbe9ff;
+    border: 2px solid #A8B9E7;
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+    transition: transform 0.2s ease
+}
+input:focus,
+textarea:focus {
+  border: 2px solid #1F3A93;
+  outline: none; 
+  box-shadow: 0 0 5px rgba(31, 58, 147, 0.4); 
+}
+input:hover{
+    transform: scale(1.03);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+.desc{
+    height: 120px;
+}
+.submit{
+    border: 0;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 15px;
+    color: white;
+    background-color: #F76C6C;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.submit:focus{
+    border: 2px solid #f35d5dd7;
+}
+.contact2 p{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+h3{
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F3A93;
+}
+h4{
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.features{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
 
 footer{
+    width: 100%;
     background-color: #A8B9E7;
     color: white;
     display: flex;

@@ -74,18 +74,20 @@ h1{
 .table-row:last-child {
   border-bottom: none;
 }
-
+.cell {
+  color: #3B4C66;
+  flex: 1;
+  text-align: left;
+  padding: 5px 10px;
+}
+.top{
+  color: white;
+}
 .first {
   background-color: #1F3A93;
   color: white;
   font-weight: bold;
 }
-.cell {
-  flex: 1;
-  text-align: left;
-  padding: 5px 10px;
-}
-
 
 footer{
     background-color: #A8B9E7;

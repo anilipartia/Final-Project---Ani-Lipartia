@@ -3,7 +3,7 @@ body{
     background-color: #F8F9FA;
     font-family: 'Lato', sans-serif;
 }
-.container{
+.container1{
     max-width: 2000px;
     margin-right: 5%;
     margin-left: 5%;
@@ -36,7 +36,7 @@ a:hover{
     color: #A8B9E7;
 }
 
-.card{
+.contact-card{
     width: 100%;
     display: flex;
     padding: 20px;
@@ -68,7 +68,7 @@ h1{
 }
 h2{
     font-size: 30px;
-    color: #1F3A93;
+    color: #1F3A93 !important;
     font-weight: 400;
     margin-bottom: 20px;
 }
@@ -131,10 +131,10 @@ h3{
     margin-top: 20px;
     font-size: 36px;
     font-weight: 700;
-    color: #1F3A93;
+    color: #1F3A93 !important;
 }
 h4{
-    color: #3B4C66;
+    color: #3B4C66 !important;
     font-size: 18px;
     margin-bottom: 20px;
 }
@@ -144,8 +144,21 @@ h4{
     margin-bottom: 10px;
     align-items: center;
 }
+.accordion-button {
+    font-weight: bold;
+    background-color: #dbe9ff;
+    color: #3B4C66;
+}
 
+.accordion-button:not(.collapsed) {
+    background-color: #A8B9E7;
+    color: #3B4C66;
+}
 
+.accordion-body {
+    background-color: #f9f9f9;
+    color: #3B4C66;
+}
 footer{
     width: 100%;
     background-color: #A8B9E7;
